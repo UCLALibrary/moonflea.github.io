@@ -1,0 +1,108 @@
+App.progressCountTotal = 13;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception1.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'reception1.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception1_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception1_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception10.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'reception10.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception10_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception10_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception10_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception10_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception11.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'reception11.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception11_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception11_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception11_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception11_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception12.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'reception12.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception12_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception12_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception12_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception12_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception12_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception12_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception13.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'reception13.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception13_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception13_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception13_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception13_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception13_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception13_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception2.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'reception2.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception2_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception2_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception3.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'reception3.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception3_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception3_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception4.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'reception4.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception4_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception4_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception4_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception4_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception5.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'reception5.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception5_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception5_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception5_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception5_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception6.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'reception6.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception6_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception6_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception6_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception6_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception7.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'reception7.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception7_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception7_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception7_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception7_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception8.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'reception8.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception8_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception8_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception8_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception8_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/source images/reception9.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'reception9.jpg';
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception9_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/images/reception9_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception9_jpg.jpg') || confirm('file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///I|/WEBIOMED/BIOMED/alhhs/photo_album_2005/thumbnails/reception9_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

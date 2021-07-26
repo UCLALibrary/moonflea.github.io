@@ -1,0 +1,552 @@
+	@charset "iso-8859-1";
+
+
+
+
+
+	
+
+	BODY {
+
+
+
+
+
+
+
+ scrollbar-track-color: #DBE5D8;
+
+ scrollbar-face-color: #9A9894;
+
+ scrollbar-highlight-color: gray;
+
+ scrollbar-3dlight-color: #FFFFFF;
+
+ scrollbar-darkshadow-color: #000000;
+
+ scrollbar-shadow-color: silver;
+
+ scrollbar-arrow-color: #FFCCCC;
+
+
+
+ }
+
+ 
+
+
+
+ .roll  {
+
+	font-family : Arial;
+
+	font-size : 10pt;
+
+	font-style : normal;
+
+	font-weight : normal;
+
+	letter-spacing : normal;
+
+	text-decoration : none;
+
+	text-transform : none;
+
+	color : black;
+
+}
+
+      
+
+      A.roll:hover  {
+
+	font-family : Arial;
+
+	font-size : 10pt;
+
+	font-weight : normal;
+
+	text-decoration : underline;
+
+	text-transform : none;
+
+	color : Red;
+
+}
+
+
+
+
+
+.rolla {
+
+	color: #FF0000;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10pt;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	text-decoration: underline;
+
+	text-transform: none;
+
+	letter-spacing : 0px;
+
+}
+
+
+
+
+
+
+
+A.rolla:hover {
+
+	color: #3E0000;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10pt;
+
+	font-style: italic;
+
+	font-weight: normal;
+
+	text-decoration: underline;
+
+	text-transform: none;
+
+	letter-spacing : 0px;
+
+}
+
+
+
+.rolldaddy {
+
+
+
+
+
+	color: #000000;
+
+    font-family: Arial;
+
+	font-size: 10pt;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	text-decoration: none;
+
+	text-transform: none;
+
+	letter-spacing : 0px;
+
+
+
+}
+
+
+
+A.rolldaddy:hover {
+
+
+
+
+
+
+
+	font-family : Arial;
+
+	font-size : 10pt;
+
+	font-weight : bold;
+
+	text-decoration : underline;
+
+	text-transform : none;
+
+	color : red;
+
+	font : Arial;
+
+	letter-spacing : 0px;
+
+	
+
+}
+
+
+
+
+
+.rollbaby {
+
+
+
+
+
+	color: #000066;
+
+    font-family: Arial;
+
+	font-size: 10pt;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	text-decoration: none;
+
+	text-transform: none;
+
+	letter-spacing : 0px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A.rollbaby:hover {
+
+	text-decoration : underline;
+
+	text-transform : none;
+
+	color : #AC0000;
+
+	font : italic normal 10pt Arial;
+
+	letter-spacing : 0px;
+
+	
+
+	
+
+}
+
+
+
+
+
+.rollsister {
+
+	color: Black;
+
+	font-family: Arial;
+
+	font-size: 8pt;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	text-decoration: underline;
+
+	text-transform: none;
+
+	letter-spacing : 0px;
+
+}
+
+
+
+A.rollsister:hover {
+
+	font-family : Arial;
+
+	font-size : 8pt;
+
+	font-weight : normal;
+
+	text-decoration : none;
+
+	text-transform : none;
+
+	color : Red;
+
+	letter-spacing : 0px;
+
+}
+
+
+
+
+
+
+
+
+
+	H1 {
+
+
+
+		font-size : x-large;
+
+		font-family : "Arial Black";
+
+		font-weight : normal;
+
+		color : #990000;
+
+		line-height : 100%;
+
+		margin-top : 0px;
+
+		margin-bottom : 5px;
+
+
+
+	}
+
+
+
+
+
+
+
+	H2 {
+
+	font-size : medium;
+
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : Red;
+
+}
+
+
+
+
+
+	.labelcontent  {
+	font-size: 8pt;
+	font-style: normal;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	color : Gray;
+	letter-spacing : 0px;
+}
+
+	
+
+	
+
+
+
+	.tablecontent  {
+
+		font-size: 10pt;
+
+		font-style: normal;
+
+		font-family : Arial, Helvetica, sans-serif;
+
+		font-weight : normal;
+
+		color : #000000;
+
+		letter-spacing : 0px;
+
+	}
+
+	
+
+
+
+
+
+	.labelcontent2  {
+
+	font-size: 11pt;
+
+	font-style: normal;
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : #FF0000;
+
+	letter-spacing : 0px;
+
+}
+
+
+
+.labelcontent2a  {
+
+	font-size: 12pt;
+
+	font-style: normal;
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : #FF0000;
+
+	letter-spacing : 1px;
+
+}
+
+
+
+.labelcontent3  {
+
+	font-size: 9pt;
+
+	font-style: normal;
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : #000000;
+
+	letter-spacing : 0px;
+
+}
+
+
+
+
+
+
+
+.labelcontent3a  {
+
+	font-size: 8pt;
+
+	font-style: normal;
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : Gray;
+
+	letter-spacing : 1px;
+
+}
+
+
+
+.labelcontent4  {
+	font-size: 10pt;
+	font-style: normal;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	color : #000000;
+	letter-spacing : 0px;
+	line-height: normal;
+
+}
+
+
+
+
+
+.labelcontent5  {
+
+	font-size: 14pt;
+
+	font-style: normal;
+
+	font-family : "Times New Roman";
+
+	font-weight : normal;
+
+	color : #000000;
+
+	letter-spacing : 0px;
+
+}
+
+.labelcontent6  {
+	font-size: 10pt;
+	font-style: normal;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	color : #000000;
+	letter-spacing : 0px;
+	
+}
+.labelcontent7  {
+	font-size: 10pt;
+	font-style: normal;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	color : #000000;
+	letter-spacing : 0px;
+}
+.labelcontent8  {
+	font-size: 10pt;
+	font-style: normal;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bolder;
+	color : #000000;
+	letter-spacing : 0px;
+}
+
+.largelink {
+	color: Blue;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing : 0px;
+	background-color: #E3E4FF;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	border-bottom-color: Navy;
+	border-bottom-style: inset;
+	border-bottom-width: thin;
+}
+
+
+
+A.largelink:hover {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : normal;
+	text-decoration : none;
+	text-transform : none;
+	color : Red;
+	letter-spacing : 0px;
+	font-style: italic;
+	background-color: #FFE4C4;
+	border-bottom-color: Red;
+	border-bottom-style: inset;
+	border-bottom-width: thin;
+	
+}
